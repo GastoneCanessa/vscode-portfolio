@@ -18,7 +18,7 @@ const CustomHead = ({ title }) => {
         content="Uno sviluppatore full-stack che realizza siti web che ti piacerebbe usare."
       />
       <meta property="og:image" content="/Screenshot.png" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      <meta property="og:url" content="https://gastonecanessaporfolio.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
