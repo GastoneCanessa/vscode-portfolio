@@ -6,18 +6,18 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Nitin Ranganath is an avid full stack web developer building websites and applications you'd love to use"
+        content="Gastone Canessa è un appassionato sviluppatore full stack che crea siti web e applicazioni che ti piacerebbe utilizzare"
       />
       <meta
         name="keywords"
-        content="nitin ranganath, nitin, ranganath, web developer portfolio, nitin web developer, nitin developer, mern stack, nitin ranganath portfolio, vscode-portfolio"
+        content="gastone canessa, gastone, canessa, portfolio sviluppatore web, portfolio gastone, sviluppatore gastone, stack MERN, portfolio gastone canessa, vscode-portfolio"
       />
-      <meta property="og:title" content="Nitin Ranganath's Portfolio" />
+      <meta property="og:title" content="Il Portfolio di Gastone Canessa" />
       <meta
         property="og:description"
-        content="A full-stack developer building websites that you'd like to use."
+        content="Uno sviluppatore full-stack che realizza siti web che ti piacerebbe usare."
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
+      <meta property="og:image" content="/Screenshot 2024-03-12 184939.png" />
       <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
