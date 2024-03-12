@@ -59,8 +59,6 @@ export async function getStaticProps() {
     }
   );
   const user = await userRes.json();
-  console.log("-------------------------------------------------------");
-  console.log(user)
   const repoRes = await fetch(
     `https://api.github.com/users/GastoneCanessa/repos?per_page=100`,
     {
@@ -71,8 +69,6 @@ export async function getStaticProps() {
   );
 
   let repos = await repoRes.json();
-  console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
-  console.log(repos)
   repos = repos
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
     .slice(0, 6);

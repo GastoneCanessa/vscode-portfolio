@@ -1,3 +1,5 @@
+![alt text](<Screenshot 2024-03-12 184939.png>)
+
 Gastone Canessa's Portfolio
 Welcome to my personal portfolio, a space where I showcase my development projects and skills. Styled with a Visual Studio Code theme, this portfolio is designed with Next.js and deployed on Vercel, representing my journey and accomplishments in the tech world.
 
