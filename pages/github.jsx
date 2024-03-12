@@ -39,7 +39,7 @@ const GithubPage = ({ repos, user }) => {
       </div>
       <div className={styles.contributions}>
         <GitHubCalendar
-          username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
+          username="GastoneCanessa"
           theme={theme}
           hideColorLegend
           hideMonthLabels
@@ -51,24 +51,28 @@ const GithubPage = ({ repos, user }) => {
 
 export async function getStaticProps() {
   const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
+    `https://api.github.com/users/GastoneCanessa`,
     {
       headers: {
-        Authorization: `token ${process.env.GITHUB_API_KEY}`,
+        Authorization: `${process.env.GITHUB_API_KEY}`,
       },
     }
   );
   const user = await userRes.json();
-
+  console.log("-------------------------------------------------------");
+  console.log(user)
   const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
+    `https://api.github.com/users/GastoneCanessa/repos?per_page=100`,
     {
       headers: {
-        Authorization: `token ${process.env.GITHUB_API_KEY}`,
+        Authorization: `${process.env.GITHUB_API_KEY}`,
       },
     }
   );
+
   let repos = await repoRes.json();
+  console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
+  console.log(repos)
   repos = repos
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
     .slice(0, 6);

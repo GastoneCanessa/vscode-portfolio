@@ -77,11 +77,11 @@
 }
 
 .button {
-  background: var(--accent-color);
+  background: #d9ed92;
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
   margin-right: 1.5rem;
-  color: #eee;
+  /* color: #eee; */
   font-weight: 600;
   border: none;
   cursor: pointer;

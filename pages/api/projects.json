@@ -1,37 +1,147 @@
 [
-  {
-    "id": 1,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
-  },
-  {
-    "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
-  },
-  {
-    "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
-  },
-  {
-    "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
-  }
-]
+    {
+      "id": 600486889,
+      "name": "API-Nylo",
+      "description": "A Django-based API for scalable web applications.",
+      "tags": ["django", "python"],
+      "source_code": "https://github.com/GastoneCanessa/API-Nylo",
+      "demo": "No demo available."
+    },
+    {
+      "id": 687429540,
+      "name": "auto_blog",
+      "description": "Automates blogging with Django and ChatGPT.",
+      "tags": ["python", "django"],
+      "source_code": "https://github.com/GastoneCanessa/auto_blog",
+      "demo": "No demo available."
+    },
+    {
+      "id": 605525569,
+      "name": "Base-API-Node",
+      "description": "Node.js template for building APIs.",
+      "tags": ["node", "javascript"],
+      "source_code": "https://github.com/GastoneCanessa/Base-API-Node",
+      "demo": "No demo available."
+    },
+    {
+      "id": 756903315,
+      "name": "Definitions",
+      "description": "Manages data with XML.",
+      "tags": ["xml"],
+      "source_code": "https://github.com/GastoneCanessa/Definitions",
+      "demo": "No demo available."
+    },
+    {
+      "id": 610821052,
+      "name": "django-s3",
+      "description": "Integrates Django apps with Amazon S3.",
+      "tags": ["python", "django"],
+      "source_code": "https://github.com/GastoneCanessa/django-s3",
+      "demo": "No demo available."
+    },
+    {
+      "id": 556786046,
+      "name": "E-Commerce",
+      "description": "E-commerce implementation with Django.",
+      "tags": ["python", "django"],
+      "source_code": "https://github.com/GastoneCanessa/E-Commerce",
+      "demo": "No demo available."
+    },
+    {
+      "id": 543087295,
+      "name": "Expenses-Chart",
+      "description": "Visualizes expenses over time with JavaScript.",
+      "tags": ["javascript"],
+      "source_code": "https://github.com/GastoneCanessa/Expenses-Chart",
+      "demo": "No demo available."
+    },
+    {
+      "id": 572567586,
+      "name": "fastapi-todo-app",
+      "description": "A to-do list app using FastAPI.",
+      "tags": ["python"],
+      "source_code": "https://github.com/GastoneCanessa/fastapi-todo-app",
+      "demo": "No demo available."
+    },
+    {
+      "id": 616473345,
+      "name": "flask-stock-portfolio-code",
+      "description": "Tracks stock portfolios with Flask.",
+      "tags": ["flask"],
+      "source_code": "https://github.com/GastoneCanessa/flask-stock-portfolio-code",
+      "demo": "No demo available."
+    },
+    {
+      "id": 761670193,
+      "name": "jadventures",
+      "description": "Adventure booking with Java and Spring.",
+      "tags": ["java", "spring", "mysql"],
+      "source_code": "https://github.com/GastoneCanessa/jadventures",
+      "demo": "No demo available."
+    },
+    {
+      "id": 761667300,
+      "name": "jadventuresfront",
+      "description": "Frontend for jadventures using React.",
+      "tags": ["react", "node"],
+      "source_code": "https://github.com/GastoneCanessa/jadventuresfront",
+      "demo": "No demo available."
+    },
+    {
+      "id": 761679198,
+      "name": "jadventure_mock",
+      "description": "Mock services for jadventures with Node.js.",
+      "tags": ["node"],
+      "source_code": "https://github.com/GastoneCanessa/jadventure_mock",
+      "demo": "No demo available."
+    },
+    {
+      "id": 643949148,
+      "name": "Nearby",
+      "description": "A Django app for location-based services.",
+      "tags": ["python", "django", "postgres"],
+      "source_code": "https://github.com/GastoneCanessa/Nearby",
+      "demo": "No demo available."
+    },
+    {
+      "id": 572187239,
+      "name": "openai-quickstart-python",
+      "description": "OpenAI API tutorial in Python.",
+      "tags": ["python"],
+      "source_code": "https://github.com/GastoneCanessa/openai-quickstart-python",
+      "demo": "https://beta.openai.com/docs/quickstart"
+    },
+    {
+      "id": 568926354,
+      "name": "py_midi",
+      "description": "Python project for MIDI file manipulation.",
+      "tags": ["python"],
+      "source_code": "https://github.com/GastoneCanessa/py_midi",
+      "demo": "No demo available."
+    },
+    {
+      "id": 543283693,
+      "name": "qr-code-component-main",
+      "description": "Generates QR codes with Python.",
+      "tags": ["python"],
+      "source_code": "https://github.com/GastoneCanessa/qr-code-component-main",
+      "demo": "No demo available."
+    },
+    {
+      "id": 680936505,
+      "name": "react_lab",
+      "description": "Experiments with React components.",
+      "tags": ["react", "javascript"],
+      "source_code": "https://github.com/GastoneCanessa/react_lab",
+      "demo": "No demo available."
+    },
+    {
+      "id": 680938508,
+      "name": "vue-crud-course-code",
+      "description": "CRUD app tutorial with Vue.js.",
+      "tags": ["vue", "javascript"],
+      "source_code": "https://github.com/GastoneCanessa/vue-crud-course-code",
+      "demo": "No demo available."
+    }
+  ]
+  
