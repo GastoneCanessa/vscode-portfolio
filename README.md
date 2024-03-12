@@ -1,49 +1,28 @@
-# vscode-portfolio
-[![Open is Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/itsnitinr/vscode-portfolio)
+Gastone Canessa's Portfolio
+Welcome to my personal portfolio, a space where I showcase my development projects and skills. Styled with a Visual Studio Code theme, this portfolio is designed with Next.js and deployed on Vercel, representing my journey and accomplishments in the tech world.
 
-A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
+Portfolio Features
+Personalized theme reflecting my coding environment.
+Interactive elements that emulate a real development experience.
+Feel free to suggest new features by opening an issue.
 
-![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
+Environment Setup
+To integrate dynamic content, configure the .env.local file following the template provided in .env.local.example.
 
-## Features Roadmap
+Running the Portfolio Locally
+Start the local development server with:
 
-- [ ] Themes and customizations
-  - [x] GitHub Dark (default)
-  - [ ] One Dark Pro
-  - [x] Dracula
-  - [x] Ayu
-  - [x] Nord
-- [ ] Interactive custom terminal
-
-For other features and themes suggestions, please open an issue.
-
-## Environment Variables
-
-For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
-
-## Running Development Server
-
-```bash
+bash
+Copy code
 npm run dev
 # or
 yarn dev
-```
+Access http://localhost:3000 to view the portfolio live.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contribution
+If you have any suggestions or want to contribute, please feel free to create an issue or a pull request.
 
-All VSCode related components can be found in the `components` folder. To change the content of the portfolio, check out the `pages` folder. To add or remove pages, modify `components/Sidebar.jsx` and `components/Tabsbar.jsx`.
+Deployment
+The portfolio is deployed on Vercel for a seamless production experience. For more details on deploying with Vercel, visit Next.js deployment documentation.
 
-## Next.js Resources
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This README is concise, focusing solely on the portfolio aspect, and provides users with the information they need to get started with your site.
