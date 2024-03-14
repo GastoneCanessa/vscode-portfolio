@@ -32,11 +32,6 @@ const GithubPage = ({ repos, user }) => {
           <h3>{user.followers} followers</h3>
         </div>
       </div>
-      <div className={styles.container}>
-        {repos.map((repo) => (
-          <RepoCard key={repo.id} repo={repo} />
-        ))}
-      </div>
       <div className={styles.contributions}>
         <GitHubCalendar
           username="GastoneCanessa"
@@ -45,6 +40,11 @@ const GithubPage = ({ repos, user }) => {
           hideMonthLabels
         />
       </div>
+      <div className={styles.container}>
+        {repos.map((repo) => (
+          <RepoCard key={repo.id} repo={repo} />
+        ))}
+      </div>  
     </>
   );
 };
@@ -69,9 +69,10 @@ export async function getStaticProps() {
   );
 
   let repos = await repoRes.json();
+  console.log(repos);
   repos = repos
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 6);
+    .slice(0, 30);
 
   return {
     props: { title: 'GitHub', repos, user },

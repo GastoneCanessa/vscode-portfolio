@@ -1,147 +1,217 @@
 [
-    {
-      "id": 600486889,
-      "name": "API-Nylo",
-      "description": "A Django-based API for scalable web applications.",
-      "tags": ["django", "python"],
-      "source_code": "https://github.com/GastoneCanessa/API-Nylo",
-      "demo": "No demo available."
-    },
-    {
-      "id": 687429540,
-      "name": "auto_blog",
-      "description": "Automates blogging with Django and ChatGPT.",
-      "tags": ["python", "django"],
-      "source_code": "https://github.com/GastoneCanessa/auto_blog",
-      "demo": "No demo available."
-    },
-    {
-      "id": 605525569,
-      "name": "Base-API-Node",
-      "description": "Node.js template for building APIs.",
-      "tags": ["node", "javascript"],
-      "source_code": "https://github.com/GastoneCanessa/Base-API-Node",
-      "demo": "No demo available."
-    },
-    {
-      "id": 756903315,
-      "name": "Definitions",
-      "description": "Manages data with XML.",
-      "tags": ["xml"],
-      "source_code": "https://github.com/GastoneCanessa/Definitions",
-      "demo": "No demo available."
-    },
-    {
-      "id": 610821052,
-      "name": "django-s3",
-      "description": "Integrates Django apps with Amazon S3.",
-      "tags": ["python", "django"],
-      "source_code": "https://github.com/GastoneCanessa/django-s3",
-      "demo": "No demo available."
-    },
-    {
-      "id": 556786046,
-      "name": "E-Commerce",
-      "description": "E-commerce implementation with Django.",
-      "tags": ["python", "django"],
-      "source_code": "https://github.com/GastoneCanessa/E-Commerce",
-      "demo": "No demo available."
-    },
-    {
-      "id": 543087295,
-      "name": "Expenses-Chart",
-      "description": "Visualizes expenses over time with JavaScript.",
-      "tags": ["javascript"],
-      "source_code": "https://github.com/GastoneCanessa/Expenses-Chart",
-      "demo": "No demo available."
-    },
-    {
-      "id": 572567586,
-      "name": "fastapi-todo-app",
-      "description": "A to-do list app using FastAPI.",
-      "tags": ["python"],
-      "source_code": "https://github.com/GastoneCanessa/fastapi-todo-app",
-      "demo": "No demo available."
-    },
-    {
-      "id": 616473345,
-      "name": "flask-stock-portfolio-code",
-      "description": "Tracks stock portfolios with Flask.",
-      "tags": ["flask"],
-      "source_code": "https://github.com/GastoneCanessa/flask-stock-portfolio-code",
-      "demo": "No demo available."
-    },
-    {
-      "id": 761670193,
-      "name": "jadventures",
-      "description": "Adventure booking with Java and Spring.",
-      "tags": ["java", "spring", "mysql"],
-      "source_code": "https://github.com/GastoneCanessa/jadventures",
-      "demo": "No demo available."
-    },
-    {
-      "id": 761667300,
-      "name": "jadventuresfront",
-      "description": "Frontend for jadventures using React.",
-      "tags": ["react", "node"],
-      "source_code": "https://github.com/GastoneCanessa/jadventuresfront",
-      "demo": "No demo available."
-    },
-    {
-      "id": 761679198,
-      "name": "jadventure_mock",
-      "description": "Mock services for jadventures with Node.js.",
-      "tags": ["node"],
-      "source_code": "https://github.com/GastoneCanessa/jadventure_mock",
-      "demo": "No demo available."
-    },
-    {
-      "id": 643949148,
-      "name": "Nearby",
-      "description": "A Django app for location-based services.",
-      "tags": ["python", "django", "postgres"],
-      "source_code": "https://github.com/GastoneCanessa/Nearby",
-      "demo": "No demo available."
-    },
-    {
-      "id": 572187239,
-      "name": "openai-quickstart-python",
-      "description": "OpenAI API tutorial in Python.",
-      "tags": ["python"],
-      "source_code": "https://github.com/GastoneCanessa/openai-quickstart-python",
-      "demo": "https://beta.openai.com/docs/quickstart"
-    },
-    {
-      "id": 568926354,
-      "name": "py_midi",
-      "description": "Python project for MIDI file manipulation.",
-      "tags": ["python"],
-      "source_code": "https://github.com/GastoneCanessa/py_midi",
-      "demo": "No demo available."
-    },
-    {
-      "id": 543283693,
-      "name": "qr-code-component-main",
-      "description": "Generates QR codes with Python.",
-      "tags": ["python"],
-      "source_code": "https://github.com/GastoneCanessa/qr-code-component-main",
-      "demo": "No demo available."
-    },
-    {
-      "id": 680936505,
-      "name": "react_lab",
-      "description": "Experiments with React components.",
-      "tags": ["react", "javascript"],
-      "source_code": "https://github.com/GastoneCanessa/react_lab",
-      "demo": "No demo available."
-    },
-    {
-      "id": 680938508,
-      "name": "vue-crud-course-code",
-      "description": "CRUD app tutorial with Vue.js.",
-      "tags": ["vue", "javascript"],
-      "source_code": "https://github.com/GastoneCanessa/vue-crud-course-code",
-      "demo": "No demo available."
-    }
-  ]
-  
+  {
+    "id": 772132668,
+    "name": "javeat",
+    "description": "Javeat is a Java-based platform for online food ordering, featuring a comprehensive user interface, a detailed restaurant management system, and a real-time delivery tracking system.",
+    "tags": [
+      "java",
+      "spring",
+      "mysql"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/javeat",
+    "demo": "No demo available."
+  },
+  {
+    "id": 772133155,
+    "name": "javeat-front",
+    "description": "The Javeat-front is a React-based front-end for the Javeat online food ordering service, designed with an intuitive user interface and seamless backend integration.",
+    "tags": [
+      "react",
+      "node"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/javeat-front",
+    "demo": "No demo available."
+  },
+  {
+    "id": 600486889,
+    "name": "API-Nylo",
+    "description": "API-Nylo, built with Django, offers scalable solutions for web applications, highlighting efficient data handling and API management.",
+    "tags": [
+      "django",
+      "python"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/API-Nylo",
+    "demo": "No demo available."
+  },
+  {
+    "id": 687429540,
+    "name": "auto_blog",
+    "description": "Auto_blog automates the blogging process by leveraging Django and ChatGPT, streamlining content creation and management.",
+    "tags": [
+      "python",
+      "django"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/auto_blog",
+    "demo": "No demo available."
+  },
+  {
+    "id": 605525569,
+    "name": "Base-API-Node",
+    "description": "Base-API-Node is a Node.js template designed for building robust APIs, featuring easy scalability and integration capabilities.",
+    "tags": [
+      "node",
+      "javascript"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/Base-API-Node",
+    "demo": "No demo available."
+  },
+  {
+    "id": 756903315,
+    "name": "Definitions",
+    "description": "Definitions is a data management tool that utilizes XML for efficient data storage and retrieval processes.",
+    "tags": [
+      "xml"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/Definitions",
+    "demo": "No demo available."
+  },
+  {
+    "id": 610821052,
+    "name": "django-s3",
+    "description": "Django-s3 integrates Django applications with Amazon S3, offering a streamlined approach to managing cloud storage.",
+    "tags": [
+      "python",
+      "django"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/django-s3",
+    "demo": "No demo available."
+  },
+  {
+    "id": 556786046,
+    "name": "E-Commerce",
+    "description": "This E-Commerce implementation utilizes Django for building a comprehensive online shopping platform with a focus on user experience.",
+    "tags": [
+      "python",
+      "django"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/E-Commerce",
+    "demo": "No demo available."
+  },
+  {
+    "id": 543087295,
+    "name": "Expenses-Chart",
+    "description": "Expenses-Chart is a JavaScript tool for visualizing expenses over time, offering insights into financial trends and budgeting.",
+    "tags": [
+      "javascript"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/Expenses-Chart",
+    "demo": "No demo available."
+  },
+  {
+    "id": 572567586,
+    "name": "fastapi-todo-app",
+    "description": "FastAPI-todo-app is a to-do list application built with FastAPI, featuring efficient task management and real-time updates.",
+    "tags": [
+      "python"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/fastapi-todo-app",
+    "demo": "No demo available."
+  },
+  {
+    "id": 616473345,
+    "name": "flask-stock-portfolio-code",
+    "description": "Flask-stock-portfolio-code tracks stock portfolios using Flask, offering detailed analytics and financial insights.",
+    "tags": [
+      "flask"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/flask-stock-portfolio-code",
+    "demo": "No demo available."
+  },
+  {
+    "id": 761670193,
+    "name": "jadventures",
+    "description": "Jadventures is a Java and Spring-based platform for booking adventures, featuring a robust booking system and real-time availability updates.",
+    "tags": [
+      "java",
+      "spring",
+      "mysql"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/jadventures",
+    "demo": "No demo available."
+  },
+  {
+    "id": 761667300,
+    "name": "jadventuresfront",
+    "description": "Jadventuresfront is the React frontend for the Jadventures platform, offering a dynamic user experience with efficient data handling.",
+    "tags": [
+      "react",
+      "node"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/jadventuresfront",
+    "demo": "No demo available."
+  },
+  {
+    "id": 761679198,
+    "name": "jadventure_mock",
+    "description": "Jadventure_mock provides mock services for Jadventures using Node.js, facilitating development and testing of the platform.",
+    "tags": [
+      "node"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/jadventure_mock",
+    "demo": "No demo available."
+  },
+  {
+    "id": 643949148,
+    "name": "Nearby",
+    "description": "Nearby is a Django app for location-based services, enhancing user experience with geo-targeted information and interactions.",
+    "tags": [
+      "python",
+      "django",
+      "postgres"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/Nearby",
+    "demo": "No demo available."
+  },
+  {
+    "id": 572187239,
+    "name": "openai-quickstart-python",
+    "description": "OpenAI-quickstart-python offers a tutorial for the OpenAI API, aimed at Python developers looking to integrate AI functionalities into their applications.",
+    "tags": [
+      "python"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/openai-quickstart-python",
+    "demo": "https://beta.openai.com/docs/quickstart"
+  },
+  {
+    "id": 568926354,
+    "name": "py_midi",
+    "description": "Py_midi is a Python project focused on MIDI file manipulation, offering tools for editing and processing MIDI data.",
+    "tags": [
+      "python"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/py_midi",
+    "demo": "No demo available."
+  },
+  {
+    "id": 543283693,
+    "name": "qr-code-component-main",
+    "description": "Qr-code-component-main generates QR codes using Python, providing a simple yet powerful tool for encoding information.",
+    "tags": [
+      "python"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/qr-code-component-main",
+    "demo": "No demo available."
+  },
+  {
+    "id": 680936505,
+    "name": "react_lab",
+    "description": "React_lab explores React components through experiments, offering insights and innovative solutions for front-end development.",
+    "tags": [
+      "react",
+      "javascript"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/react_lab",
+    "demo": "No demo available."
+  },
+  {
+    "id": 680938508,
+    "name": "vue-crud-course-code",
+    "description": "Vue-crud-course-code is a tutorial for building CRUD applications with Vue.js, guiding users through the development of a full-featured app.",
+    "tags": [
+      "vue",
+      "javascript"
+    ],
+    "source_code": "https://github.com/GastoneCanessa/vue-crud-course-code",
+    "demo": "No demo available."
+  }
+]
